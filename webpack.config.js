@@ -1,14 +1,5 @@
 const path = require('path')
 
-const postCSSPlugins = [
-  require('postcss-import'),
-  require('postcss-mixins'),
-  require('postcss-simple-vars'),
-  require('postcss-nested'),
-  require('postcss-hexrgba'),
-  require('autoprefixer')
-]
-
 module.exports = {
   entry: './app/assets/scripts/App.js',
   output: {
@@ -20,10 +11,10 @@ module.exports = {
     static: {
       directory: path.join(__dirname, 'app'),
     },
-    compress: true,
+    // compress: true,
     hot: true,
     port: 3000,
-    allowedHosts: 'all',
+    // allowedHosts: 'all',
     host: '0.0.0.0'
   },
   mode: 'development',
