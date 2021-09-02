@@ -1,0 +1,45 @@
+.page-section {
+  padding: 1.2rem 0;
+
+  @mixin atMedium {
+    padding: 4.5rem 0;
+  }
+  &--no-b-padding-until-medium {
+    padding-bottom: 0;
+
+    @mixin atMedium {
+      padding-bottom: 4.5rem;
+    }
+  }
+
+  &--no-b-padding-until-large {
+    padding-bottom: 0;
+
+    @mixin atLarge {
+      padding-bottom: 4.5rem;
+    }
+  }
+
+  &__profile {
+    border-radius: 100px;
+    overflow: hidden;
+    width: 260px;
+    height: 260px;
+    position: relative;
+  }
+  &__bio {
+    margin-top: 20px;
+    text-align: left;
+
+    &--name {
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+    &--job-title {
+      font-size: 0.8rem;
+      font-weight: 200;
+      padding-left: 64px;
+      color: #444444;
+    }
+  }
+}
