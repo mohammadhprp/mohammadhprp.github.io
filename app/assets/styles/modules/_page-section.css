@@ -26,10 +26,11 @@
     width: 260px;
     height: 260px;
     position: relative;
+    margin: auto;
   }
   &__bio {
     margin-top: 20px;
-    text-align: left;
+    text-align: center;
 
     &--name {
       font-size: 1.2rem;
@@ -38,7 +39,6 @@
     &--job-title {
       font-size: 0.8rem;
       font-weight: 200;
-      padding-left: 64px;
       color: #444444;
     }
   }

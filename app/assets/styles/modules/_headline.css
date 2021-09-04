@@ -5,6 +5,7 @@
 
     @mixin atSmall {
       font-size: 2.875rem;
+      text-align: center;
     }
 
     &--centered{
