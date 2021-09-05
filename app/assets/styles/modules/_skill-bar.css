@@ -1,0 +1,34 @@
+.skill-bar {
+  width: 100%;
+  background-color: $mainWhite;
+  border-radius: 50px;
+
+}
+.skill {
+  text-align: right;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  color: #fafaec;
+  border-radius: 50px;
+}
+
+.skill-image {
+  display: none;
+
+  @mixin atSmall {
+    display: none;
+  }
+
+  @mixin atMedium {
+    display: block;
+    margin-top: 100px;
+  }
+}
+
+.python {width: 80%; background-color: #FFD43B;}
+.django {width: 70%; background-color: #092e20;}
+.js {width: 75%; background-color: #f0db4f;}
+.nodejs {width: 60%; background-color: #3c873a;}
+.git {width: 75%; background-color: #f34f29;}
+.flutter {width: 45%; background-color: #41d0fd;}
