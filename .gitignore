@@ -14,6 +14,7 @@ node_modules/
 ignore/
 .tmp/
 app/bundled.js
+fa/
 # OS or Editor folders
 .DS_Store
 Thumbs.db
