@@ -12,6 +12,7 @@
 *.sass-cache
 node_modules/
 ignore/
+docs/
 .tmp/
 app/bundled.js
 fa/
