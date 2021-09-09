@@ -4,7 +4,6 @@ import RevealOnScroll from './modules/RevealOnScroll';
 
 
 new RevealOnScroll(document.querySelectorAll(".skill-image"), 80)
-new RevealOnScroll(document.querySelectorAll(".python"), 60)
 new MobileMenu();
 
 
