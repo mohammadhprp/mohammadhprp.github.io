@@ -38,6 +38,7 @@
       font-weight: 400;
     }
     &--job-title {
+      margin-top: -10px;
       font-size: 0.8rem;
       font-weight: 200;
       color: #444444;
