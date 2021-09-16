@@ -16,6 +16,7 @@ ignore/
 .tmp/
 app/bundled.js
 fa/
+.obsidian/
 # OS or Editor folders
 .DS_Store
 Thumbs.db
