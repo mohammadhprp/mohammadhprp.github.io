@@ -19,7 +19,7 @@ class RevealOnScroll {
   }
 
   calcCaller() {
-    console.log("Scroll function ran")
+    // console.log("Scroll function ran")
     this.itemsToReveal.forEach(el => {
       if (el.isRevealed == false) {
         this.calculateIfScrolledTo(el)
