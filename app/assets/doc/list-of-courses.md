@@ -18,3 +18,4 @@
 + [NodeJS Tutorial and Projects Course](https://www.udemy.com/course/nodejs-tutorial-and-projects-course/) by John Smilga
 + [Git a Web Developer Job: Mastering the Modern Workflow](https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/) by Brad Schiff
 + [Flutter & Dart - The Complete Guide](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/) by Maximilian Schwarzmüller
++ [Django 3 By Example](https://www.google.com/books/edition/Django_3_By_Example/y83aDwAAQBAJ?hl=en) book Author by [Antonio Mele](https://www.google.com/search?q=Antonio+Mele)
