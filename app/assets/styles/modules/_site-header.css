@@ -49,6 +49,7 @@
     color: #FFF;
     text-decoration: none;
     margin-right: 7px;
+    padding: 10px;
 
     &_selected {
       color: $mainPurple;
