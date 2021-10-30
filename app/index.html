@@ -24,8 +24,8 @@
     <header class="site-header">
       <div class="wrapper">
         <div class="site-header__logo">
-          <a href="/" class="site-header__lang site-header__lang_selected">En</a>
-          <a href="/fa" class="site-header__lang">Fa</a>
+          <!-- <a href="/" class="site-header__lang site-header__lang_selected">En</a>
+          <a href="/fa" class="site-header__lang">Fa</a> -->
         </div>
         <div class="site-header__menu-icon">
           <div class="site-header__menu-icon__middle"></div>
@@ -53,6 +53,7 @@
         <source srcset="assets/images/hero--small.jpg 990w, assets/images/hero--small-hi-dpi.jpg 1980w" media="(min-width: 640px)">
         <img srcset="assets/images/hero--smaller.jpg 640w, assets/images/hero--smaller-hi-dpi.jpg 1280w" alt="Coastal view of ocean and mountains" class="large-hero__image">
       </picture>
+      <canvas class="large-hero__background" width="1222" height="935" style="width: 100%; height: 100%;"></canvas>
       <div class="large-hero__text-content">
         <div class="wrapper">
           <h1 class="large-hero__title">Welcome</h1>
@@ -82,7 +83,7 @@
               <!-- Who am I and Experience: -->
               <p>I am Mohammad, a 19-year-old Iranian from Tehran.
               My background is software developer with four years experience. <br>
-              My experience as a software developer includes design, development, and programming of websites and mobile apps. I am familiar with Python, Django, JavaScript, Node.js, Linux, Git, and Flutter. My knowledge of MySQL and MongoDB also extends to both of these databases. I have a <a href="https://github.com/mohammadhprp">Github</a> Account where you can see my projects.</p>
+              My experience as a software developer includes design, development, and programming of websites and mobile apps. I am familiar with Python, Django, JavaScript, Linux, Git, and Flutter. My knowledge of MySQL and MongoDB also extends to both of these databases. I have a <a href="https://github.com/mohammadhprp">Github</a> Account where you can see my projects.</p>
               <!-- Education: -->
               <p>I study software engineering at the Islamic Azad University South Tehran Branch.<br>In addition, I am a self-taught programmer. <a href="https://github.com/mohammadhprp/mohammadhprp.github.io/blob/master/app/assets/doc/list-of-courses.md">Here</a> is a list of the courses I have taken.</p>
               <!-- Interesting and Habits: -->
@@ -113,10 +114,6 @@
               <div class="skill-bar">
                 <div class="skill js">75%</div>
               </div>
-              <p>Node.js</p>
-              <div class="skill-bar">
-                <div class="skill nodejs">60%</div>
-              </div>
               <p>Git</p>
               <div class="skill-bar">
                 <div class="skill git">75%</div>
@@ -143,7 +140,30 @@
           <a href="mailto: mohammadhprp@gmail.com" class="btn open-modal">Contact me</a>
       </div>
     </footer>
-
+    <script src="https://npmcdn.com/particlesjs@2.2.2/dist/particles.min.js"></script>
+    <script type="text/javascript">
+    window.onload = function() {
+      Particles.init({
+        selector: '.large-hero__background',
+        color: '#F7F6F2',
+        maxParticles: 130,
+        connectParticles: true,
+        responsive: [
+          {
+            breakpoint: 768,
+            options: {
+              maxParticles: 80
+            }
+          }, {
+            breakpoint: 375,
+            options: {
+              maxParticles: 50
+            }
+          }
+        ]
+      });
+    };
+    </script>
     <script src="bundled.js"></script>
   </body>
 </html>

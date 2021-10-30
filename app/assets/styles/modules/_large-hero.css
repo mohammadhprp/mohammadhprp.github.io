@@ -51,4 +51,16 @@
       font-size: 1.875rem;
     }
   }
+  &__background {
+    /* background-color: $mainPurple; */
+    position:absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    
+    @mixin atMedium {
+      display:block;
+    }
+  }
 }
