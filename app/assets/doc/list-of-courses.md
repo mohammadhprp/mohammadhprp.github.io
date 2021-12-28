@@ -1,5 +1,5 @@
 ## Here is the list of courses
-### 2018
+### 2018 
 + [Understand programming](https://youtube.com/playlist?list=PL-tKrPVkKKE1Y_o_h2w85dzVdoX5t7SI0) by Jadi Mirmirani
 ### 2019
 + [Python Tutorial - Python for Beginners](https://youtu.be/_uQrJ0TkZlc) by Mosh Hamedani
@@ -10,7 +10,6 @@
 + [Django 3.0 crash course tutorials](https://youtube.com/playlist?list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO) by Dennis Ivy
 + [Learning git](https://youtube.com/playlist?list=PLJKoA-XT-wXd3WkfJ9tVOxuw0sj0EQ3Dt) by Omid Kamangar
 + [Bash Shell Scripting Tutorial for Beginners](https://youtube.com/playlist?list=PLKMOdY6Bhga5fmUcQQwhfL9thR_Yp1hZ7) by SavvyNik
-+ [Learn C++ With Me](https://youtube.com/playlist?list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3) by Tech with me
 ### 2021
 + [Django for Everybody Specialization](https://www.coursera.org/specializations/django) by Charles Russell Severance
 + [JavaScript Basics for Beginners](https://www.udemy.com/course/javascript-basics-for-beginners/) by Mosh Hamedani
