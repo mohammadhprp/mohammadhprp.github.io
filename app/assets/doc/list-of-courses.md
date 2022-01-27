@@ -11,7 +11,6 @@
 ### 2021
 + [Django for Everybody Specialization](https://www.coursera.org/specializations/django) by Charles Russell Severance
 + [JavaScript Basics for Beginners](https://www.udemy.com/course/javascript-basics-for-beginners/) by Mosh Hamedani
-+ [Object-oriented Programming in JavaScript](https://www.udemy.com/course/javascript-object-oriented-programming/) by Mosh Hamedani
 + [Git a Web Developer Job: Mastering the Modern Workflow](https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/) by Brad Schiff
 + [Flutter & Dart - The Complete Guide](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/) by Maximilian Schwarzmüller
 
